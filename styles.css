@@ -13,7 +13,7 @@ body{
 }
 
 .parallax {
-    height: 100vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +21,30 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+
+
+
+/*Images*/
+.first,
+.throw,
+.gotthem {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.first {
+    background-image: url("images/pic1.png");
+}
+
+.throw {
+    background-image: url("images/pic2.png");
+}
+
+.gotthem {
+    background-image: url("images/pic3.png");
 }
 
 .content {
@@ -32,27 +56,21 @@ body{
     text-align: center;
     padding: 60px;
     background-color: #fffaf8;
+    
 }
 
-.card {
-    background: rgba(255, 255, 255, 0.75);
+.card-section{
+    min-height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 40px;
-    border-radius: 16px;
-    backdrop-filter: blur(6px);
-    max-width: 500px;
+    background: #fffaf8;
+}
+
+h1,
+h2 {
+  margin-bottom: 15px;
 }
 
 
-
-.first{
-    background-image:url("images/pic1.png");
-    background-size: cover;
-    background-position: center;   
-
-}
-
-.gotthem{
-    background-image:url("images/pic2.png");
-    background-size: cover;
-    background-position: center;
-}
