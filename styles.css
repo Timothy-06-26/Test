@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    color:black;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+.parallax {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px;
+    background-color: #fffaf8;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 40px;
+    border-radius: 16px;
+    backdrop-filter: blur(6px);
+    max-width: 500px;
+}
+
+
+
+.first{
+    background-image:url("images/pic1.png");
+    background-size: cover;
+    background-position: center;   
+
+}
+
+.gotthem{
+    background-image:url("images/pic2.png");
+    background-size: cover;
+    background-position: center;
+}
